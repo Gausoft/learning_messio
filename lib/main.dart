@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:messio/pages/ConversationPage.dart';
 
 void main() => runApp(MyApp());
 
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Messio'),
+      home: ConversationPage(),
     );
   }
 }
@@ -50,7 +51,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'Hello world',
+              'Hello World!',
             )
           ],
         ),
