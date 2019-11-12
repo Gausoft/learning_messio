@@ -3,9 +3,10 @@ import 'package:messio/config/Palette.dart';
 import 'package:intl/intl.dart';
 
 class ChatItemWidget extends StatefulWidget{
-  var index;
+  
+  final index;
 
-  ChatItemWidget(this.index);
+  const ChatItemWidget(this.index);
 
   @override
   _ChatItemWidgetState createState() => _ChatItemWidgetState();
